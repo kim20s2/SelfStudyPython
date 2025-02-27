@@ -3,7 +3,9 @@ import math
 
 # 클래스를 선언합니다.
 class Circle:
-    # ...생략...
+    def __init__(self, radius):     # 생성자 추가! ... 생략 부분 ...
+        self.radius = radius        # setter를 사용하여 값을 할당
+
     # 게터와 세터를 선언합니다.
     @property
     def radius(self):
